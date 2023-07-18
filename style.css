@@ -378,8 +378,8 @@ margin-right: 10px;
   @media screen and (max-width:600px){
 
     body{
-        max-width: 710px;
-        display: flex;
+        max-width: 720px;
+       
     }
     .aside{
         width: 44%;
