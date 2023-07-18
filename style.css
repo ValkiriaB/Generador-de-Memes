@@ -406,7 +406,9 @@ margin-right: 10px;
  
     .cuerpo-meme{
         position: fixed;
-        left: 0;
+        display: flex;
+        justify-content: center;
+        right: 2px;
         top: 86px;
     }
   }
