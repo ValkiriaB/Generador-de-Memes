@@ -378,7 +378,7 @@ margin-right: 10px;
   @media screen and (max-width:600px){
 
     body{
-        max-width: 720px;
+       max-width: 720px;
        display: flex;
     }
     .aside{
