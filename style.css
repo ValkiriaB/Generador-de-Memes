@@ -374,7 +374,7 @@ margin-right: 10px;
   @media screen and (max-width:600px){
 
     body{
-        max-width: 700px;
+        max-width: 710px;
         display: flex;
     }
     .aside{
@@ -387,12 +387,12 @@ margin-right: 10px;
     }
 
    .position-span-fondo{
-   margin-left: 24px;
+   margin-left: 20px;
    }
   
    .boton-x{
     color:white;
-    margin-left:10px ;
+    margin-right:10px ;
     background-color: #252935 ;
     border: none;
     }
