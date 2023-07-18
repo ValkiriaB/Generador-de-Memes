@@ -409,6 +409,7 @@ margin-right: 10px;
     .cuerpo-meme{
         position: fixed;
         left: 0;
+        margin-top: 24px;
     }
   }
   
