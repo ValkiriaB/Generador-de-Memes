@@ -390,12 +390,12 @@ margin-right: 10px;
     }
 
    .position-span-fondo{
-   margin-left: 8px;
+   margin-right: 8px;
    }
   
    .boton-x{
     color:white;
-   margin-right: 150px;
+    margin-right: 150px;
     background-color: #252935 ;
     border: none;
     }
