@@ -79,6 +79,8 @@
         imgButton.classList.toggle("darkbutton")
         modeButton.classList.toggle("darkbutton")
         generadormemesblack.classList.toggle('darktitle')
+        closeButton.classList.toggle('darkbutton')
+        closeButton.classList.toggle('darkbutton')
         // dark imagen
         titleaside.classList.toggle('darktitle')
         imagenTitle.classList.toggle('darktitle')
