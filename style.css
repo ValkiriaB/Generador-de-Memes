@@ -382,7 +382,7 @@ margin-right: 10px;
        display: flex;
     }
     .aside{
-        width: 46%;
+        width: 50%;
         height: 100%;
         justify-content:space-between;
         align-items:center;
@@ -390,7 +390,7 @@ margin-right: 10px;
     }
 
    .position-span-fondo{
-   margin-left: 20px;
+   margin-left: 12px;
    }
   
    .boton-x{
@@ -405,10 +405,10 @@ margin-right: 10px;
     }
  
     .cuerpo-meme{
+        width: 80%;
         position: fixed;
-        display: flex;
-        justify-content: center;
         right: 2px;
+        left: 4px;
         top: 86px;
     }
   }
