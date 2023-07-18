@@ -395,7 +395,7 @@ margin-right: 10px;
   
    .boton-x{
     color:white;
-    left:10px ;
+   margin-right: 150px;
     background-color: #252935 ;
     border: none;
     }
@@ -411,8 +411,12 @@ margin-right: 10px;
         left: 4px;
         top: 86px;
     }
-    #button{
-        margin: 8px;
+    .button-top{
+        margin: 12px;
+    }
+
+    .descargar{
+        margin: 4px;
     }
   }
   
