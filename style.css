@@ -387,7 +387,6 @@ margin-right: 10px;
         justify-content:space-between;
         align-items:center;
         position: fixed;
-       
     }
 
    .position-span-fondo{
@@ -408,7 +407,7 @@ margin-right: 10px;
     .cuerpo-meme{
         position: fixed;
         left: 0;
-        top: 100px;
+        top: 86px;
     }
   }
   
