@@ -328,7 +328,11 @@ margin-right: 10px;
     color: black;
     transition-duration: 1s;
     }
-
+ 
+    .whiteButton{
+        background-color: #fafafa;
+        color: black;
+    }
     .darktitle{
         color:black;
         transition-duration: 1s;
@@ -402,9 +406,9 @@ margin-right: 10px;
     }
  
     .cuerpo-meme{
-       
+        position: fixed;
         left: 0;
-        margin-bottom: 54px;
+        top: 100px;
     }
   }
   
