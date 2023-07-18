@@ -27,17 +27,17 @@
     <header class="header" id="headerColor">
         <h1 class="titulo" id="titulo"> Generador de Memes</h1>
         <div id="button">
-        <button class="button-top" id="img-btn">
+        <button class="button-top" id="img-btn"  aria-label="Boton Menu Imagen">
             <i class="fa-regular fa-file-image"></i>
             Imagen
         </button>
 
-        <button class="button-top" id="text-btn">
+        <button class="button-top" id="text-btn" aria-label="Boton Menu Texto">
             <i class="fa-solid fa-font"></i>
            Texto
         </button>
 
-        <button class="button-top diseño"id="mode-btn"> 🌙Modo oscuro</button>
+        <button class="button-top diseño"id="mode-btn" aria-label="Modo Oscuro"> 🌙Modo oscuro</button>
 
         </div>
     </header>
@@ -46,12 +46,12 @@
      
      <div class="meme" id="meme-container">
       <p class="parrafo" id="top-text">TOP TEXT</p>
-       <div class="cuerpo" id="meme-img"></div>
+       <div class="cuerpo" id="meme-img" alt="Contenedor del meme"></div>
       <p class="parrafo-bottom" id="bottom-text">BOTTOM TEXT</p>
 
       </div>
   
-        <button type="button" class="descargar" id="download-btn">
+        <button type="button" class="descargar" id="download-btn" aria-label="Descargar meme">
         <i class="fa-solid fa-download"></i>
         Descargar meme 
     </button>
@@ -59,7 +59,7 @@
     </main>
   
     <aside class="aside text" id="aside-text">
-        <button class="boton-x" id="close-button-text">
+        <button class="boton-x" id="close-button-text" aria-label="Cerrar menu texto">
             <i class="fa-regular fa-circle-xmark " ></i>
         </button>
 
@@ -68,7 +68,7 @@
         <!-- parte superior -->
         <div class="class-aside-texto ">
             <h2 class="titulo-box" id="superior">Superior</h2>
-            <textarea name="" class="input-aside" id="toptext">Top Text</textarea>
+            <textarea name="" class="input-aside" id="toptext" aria-label="Escribir texto superior">Top Text</textarea>
             <input type="checkbox" id="input-superior">
             <label id="text-checkbox"> sin texto superior</label>
         </div>
@@ -76,7 +76,7 @@
         <!-- parte inferior -->
         <div class="class-aside-texto">
             <h2 class="titulo-box" id="inferior">Inferior</h2>
-            <textarea name="" class="input-aside" id="boton-text">Bottom Text</textarea>
+            <textarea name="" class="input-aside" id="boton-text" aria-label="Escribir texto Inferior">Bottom Text</textarea>
             <input type="checkbox" id="input-bottom">
             <label id="bottom-checkbox"> sin texto Inferior</label>
         </div>
@@ -84,9 +84,9 @@
         <!-- Fuente y posicion -->
 
         <div class="class-aside-texto ">
-         <h2 class="titulo-box" id="Fuente">Fuente</h2>
+         <h2 class="titulo-box" id="Fuente">Fuente</h2 >
 
-         <select class="select" id="select-fuente">
+         <select class="select" id="select-fuente"  aria-label="Seleccionar tipo de fuentes">
          <option value="Arial, Helvetica, sans-serif"> Arial </option>
          <option value="'Courier New', Courier, monospace"> Courier New </option>
          <option value="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"> Segoe UI</option>
@@ -100,15 +100,15 @@
  
          
         <div class="margen-derecho"> 
-            <input class="tamaño-letra" type="number" min="12" max="50" value="40" id="input-number">
-           <button class="boton-alineacion" id="izquierda-texto">
+            <input class="tamaño-letra" type="number" min="12" max="50" value="40" id="input-number" aria-label="Tamaño de la letra">
+           <button class="boton-alineacion" id="izquierda-texto" aria-label="Alinear texto a la izquierda">
             <i class="fa-solid fa-align-left"></i>
            </button>
 
-           <button class="boton-alineacion"id="medio-texto">
+           <button class="boton-alineacion"id="medio-texto" aria-label="Centrar texto">
             <i class="fa-solid fa-align-justify" ></i>
            </button>
-           <button class="boton-alineacion"id="derecha-texto">
+           <button class="boton-alineacion"id="derecha-texto"aria-label="Alinear texto a la derecha">
             <i class="fa-solid fa-align-right" ></i>
            </button>
         </div>
@@ -119,14 +119,14 @@
 
         <div class="color-letra-texto">
         <h2 class="titulo-box" id="color-Text">Color</h2>
-        <input type="color" class="input-color" id="input-color">
+        <input type="color" class="input-color" id="input-color"aria-label="Color de texto">
         <span  class="position-span"  id="color-input-texto">#000000</span>
 
         </div>
 
         <div class="color-fondo-caja">
         <h2 class="titulo-box" id="fondo-Text">Fondo</h2>
-        <input type="color" class="input-color" id="color-fondo-input" value="#ffffff">
+        <input type="color" class="input-color" id="color-fondo-input" value="#ffffff" aria-label="Color de Fondo">
         <span id="color-fondo-caja-text" class="position-span">#FFFFFF</span>
         </div>
          
@@ -139,24 +139,24 @@
     
     <!-- Contorno -->
 
-   <div class="class-aside-texto ">
+   <div class="class-aside-texto " aria-label="seleccion de contorno">
     <h2 class="titulo-box" id="texto-contorno">Contorno</h2>
-    <button class="boton-contorno" id="boton-ninguno">Ninguno</button>
-    <button class="boton-contorno" id="boton-claro">Claro</button>
-    <button class="boton-contorno" id="boton-oscuro">Oscuro</button>
+    <button class="boton-contorno" id="boton-ninguno" aria-label="Sin-contorno">Ninguno</button>
+    <button class="boton-contorno" id="boton-claro" aria-label="Contorno claro">Claro</button>
+    <button class="boton-contorno" id="boton-oscuro" aria-label="Contorno oscuro">Oscuro</button>
    </div>
 
    <!-- Espaciado -->
     <div class="class-aside-texto " >
         <h2 class="titulo-box" id="text-espaciado">Espaciado</h2>
-        <input class="select select-text" type="number" min="12" max="40" value="12" id="input-espaciado">
+        <input class="select select-text" type="number" min="12" max="40" value="12" id="input-espaciado"aria-label="espaciado">
     </div>
 
    <!-- Interlineado -->
 
-    <div class="class-aside-texto ">
+    <div class="class-aside-texto">
         <h2 class="titulo-box" id="text-interlineado">Interlineado</h2>
-       <select class="select select-text" id="select-Interlineado">
+       <select class="select select-text" id="select-Interlineado" aria-label="interlineado">
         <option value="0.8">0.8</option>
         <option value="1">1</option>
         <option value="1.2">1.2</option>
@@ -176,7 +176,7 @@
      
          <div class="url-box margin-reutilizable">
           <h2 class="titulo-box clase-global" id="urlaside"> URL</h2>
-          <input type="text" class="input-aside" id="url-input">
+          <input type="text" class="input-aside" id="url-input"aria-label="Url de imagen">
           </div>
   
   
@@ -184,11 +184,11 @@
   
           <h2 class="titulo-box clase-global" id="tituloFondo">FONDO</h2>
           
-          <input type="color" class="input-color" id="color-input" >
+          <input type="color" class="input-color" id="color-input" aria-label="Seleccionar color fondo de imagen" >
           <span class="position-span-fondo" id="color-name">#000000</span>
 
 
-          <select class="select" id="select-imagen">
+          <select class="select" id="select-imagen" aria-label="Opciones para editar fondo de la imagen">
           <option value="unset">Niguno</option>
           <option value="lighten">Aclarar</option>
           <option value="darken">Oscurecer</option>
@@ -202,62 +202,62 @@
   
          
   
-          <div id="filtros" class="margin-filtros">
+          <div id="filtros" class="margin-filtros" aria-label="filtros">
            <h2 class="titulo-box filtro-margin-titulo" id="filtrosAside">FILTROS</h2>
               <div class="caja-filtros">
                   
-                  <label id="tituloBrillo">Brillo</label>
-                  <input type="range" min="0" max="1" value="1" step="0.1"id="brillo">
+                  <label id="tituloBrillo" aria-label="Filtro Brillo">Brillo</label>
+                  <input type="range" min="0" max="1" value="1" step="0.1"id="brillo" >
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloOpacidad" >Opacidad</label>
+                  <label id="tituloOpacidad" aria-label="Filtro Opacidad" >Opacidad</label>
                   <input type="range"min="0" max="1" value="1" step="0.1"id="Opacidad">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloContraste">Contraste</label>
+                  <label id="tituloContraste" aria-label="Contraste">Contraste</label>
                   <input id="Contraste" type="range" min="100" max="1000" value="100">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloDesenfoque" >Desenfoque</label>
+                  <label id="tituloDesenfoque" aria-label="Desenfoque" >Desenfoque</label>
                   <input id="Desenfoque" type="range"min="0" max="10" value="0" step="0.1">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloEscala">Escala de Grises</label>
+                  <label id="tituloEscala" aria-label="Escala de Grises">Escala de Grises</label>
                   <input id="escala" type="range"id="escala" min="0" max="100" value="0">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloSepia">Sepia</label>
+                  <label id="tituloSepia" aria-label="Sepia">Sepia</label>
                   <input id="Sepia" type="range"min="0" max="100" value="0">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="titulosHue">Hue</label>
+                  <label id="titulosHue" aria-label="Hue">Hue</label>
                   <input id="hue"type="range"min="0" max="360" value="0">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloSat">Saturado</label>
+                  <label id="tituloSat" aria-label="Saturado">Saturado</label>
                   <input id="saturado"type="range"min="100" max="1000" value="100" step="10">
               </div>
   
   
               <div class="caja-filtros">
-                  <label id="tituloNeg">Negativo</label>
+                  <label id="tituloNeg" aria-label="Negativo">Negativo</label>
                   <input id="Negativo"type="range"  min="0" max="1" value="0" step="0.1">
               </div>
-          <button class="restart" type="reset" id="restart">Reestablecer filtros</button>
+          <button class="restart" type="reset" id="restart" aria-label="Boton para reestablecer Filtros">Reestablecer filtros</button>
           </div>
   
 
