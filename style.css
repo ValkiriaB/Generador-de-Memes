@@ -379,10 +379,10 @@ margin-right: 10px;
 
     body{
         max-width: 720px;
-       
+       display: flex;
     }
     .aside{
-        width: 44%;
+        width: 46%;
         height: 100%;
         justify-content:space-between;
         align-items:center;

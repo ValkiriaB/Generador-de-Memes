@@ -51,8 +51,15 @@
     const inputEspaciado = document.getElementById('input-espaciado')
     const textInterlineado = document.getElementById('text-interlineado')
     const selectInterlineado =  document.getElementById('select-Interlineado')
-
-
+    const tituloFiltros = document.getElementById('tituloBrillo')
+    const tituloOpacidad = document.getElementById('tituloOpacidad')
+    const tituloContraste = document.getElementById('tituloContraste')
+    const tituloDesenfoque = document.getElementById('tituloDesenfoque')
+    const tituloEscala = document.getElementById('tituloEscala')
+    const tituloSepia = document.getElementById('tituloSepia')
+    const tituloHue = document.getElementById('titulosHue')
+    const TitutloSata = document.getElementById('tituloSat')
+    const tituloNeg = document.getElementById('tituloNeg')
     // Hidden
     const hideTextAside = () => {
       imgAside.classList.add("hidden");
@@ -81,6 +88,15 @@
         generadormemesblack.classList.toggle('darktitle')
         closeButton.classList.toggle('whiteButton')
         closeButtonText.classList.toggle('whiteButton')
+        tituloFiltros.classList.toggle('darktitle')
+        tituloOpacidad.classList.toggle('darktitle')
+        tituloContraste.classList.toggle('darktitle') 
+        tituloDesenfoque.classList.toggle('darktitle')
+        tituloEscala.classList.toggle('darktitle') 
+        tituloSepia.classList.toggle('darktitle')  
+        tituloHue.classList.toggle('darktitle')  
+        TitutloSata.classList.toggle('darktitle')  
+        tituloNeg.classList.toggle('darktitle')  
         // dark imagen
         titleaside.classList.toggle('darktitle')
         imagenTitle.classList.toggle('darktitle')
