@@ -126,7 +126,9 @@
         inputEspaciado.classList.toggle('inputDark')
         textInterlineado.classList.toggle('darktitle')
         selectInterlineado.classList.toggle('inputDark')
-
+        ColorcajaText.classList.toggle('darktitle')
+        ColorTexto.classList.toggle('darktitle')
+        colorName.classList.toggle('darktitle')
         if (mainContainer.classList.contains("main-container-dark")) {
           modeButton.innerText = "☀️ Modo claro";
         
